@@ -12,3 +12,24 @@ The demo file includes some sample audios intended to demonstrate the impercepti
 </audio>
 
 <audio src="demo/ACG-700-122866-0000.wav"></audio>
+
+
+<!DOCTYPE HTML>
+<head>
+<script type="text/javascript">
+function PlayVideo(){
+   var v = document.getElementsByTagName("video")[0];  
+   v.play(); 
+}
+</script>
+</head>
+<html>
+<body>
+   <form>
+   <video  width="300" height="200" src="/html5/foo.mp4">
+       Your browser does not support the <video> element.
+   </video>
+   <input type="button" onclick="PlayVideo();"  value="Play"/>
+   </form>
+</body>
+</html>

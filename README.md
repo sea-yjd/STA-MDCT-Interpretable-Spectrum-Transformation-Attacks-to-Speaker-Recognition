@@ -17,3 +17,7 @@ The demo file includes some sample audios intended to demonstrate the impercepti
 
 
 [播放](demo/ACG-700-122866-0000.wav)
+
+​<audio id="audio" controls="" preload="none">
+      <source id="mp3" src="demo/ACG-700-122866-0000.wav">
+</audio>
